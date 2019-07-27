@@ -1,0 +1,19 @@
+// custom.scss
+$primary: #051538;
+$secondary: #275683;
+$tertiary: #477ba2;
+$quaternary: #ffffff;
+
+.container-fluid {
+  margin-top: 1rem;
+}
+// Define your variable overrides here
+$enable-shadows: true;
+$enable-gradients: true;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 456px,
+  md: 789px,
+  lg: 999px,
+  xl: 1234px
+);
